@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import CssBaseLine from "@mui/material/CssBaseLine"
+import CssBaseline from "@mui/material/CssBaseline"
 import TodoList from "./TodoList"
 import NavBar from "./NavBar"
 
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <CssBaseLine />
+      <CssBaseline />
       <NavBar />
       
       <TodoList />
