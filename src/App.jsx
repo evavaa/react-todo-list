@@ -1,10 +1,8 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import CssBaseLine from "@mui/material/CssBaseLine"
 import TodoList from "./TodoList"
-import TodoForm from './TodoForm'
+import NavBar from "./NavBar"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +10,8 @@ function App() {
   return (
     <>
       <CssBaseLine />
-      <h1>Todos</h1>
+      <NavBar />
+      
       <TodoList />
     </>
   )

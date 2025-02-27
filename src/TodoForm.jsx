@@ -22,7 +22,7 @@ export default function TodoForm({addTodo}) {
             <form onSubmit={handleSubmit}>
                 <TextField 
                     id="standard-basic" 
-                    label="Standard" 
+                    label="Add Todo" 
                     variant="standard" 
                     onChange={handleChange}
                     value={text}
